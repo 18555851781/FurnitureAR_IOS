@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio for Mac
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Seazure ARKit Project.Plugins", "Seazure ARKit Project.Plugins.csproj", "{AB7659F7-8BDD-A15C-7FAC-285BDE66655A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Seazure ARKit Project", "Seazure ARKit Project.csproj", "{A572FCB0-4E2D-033E-4D13-7A23DBE033E0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Seazure ARKit Project.Editor.Plugins", "Seazure ARKit Project.Editor.Plugins.csproj", "{A2A9948D-350D-4E17-1336-4CF11F24D1A3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AB7659F7-8BDD-A15C-7FAC-285BDE66655A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AB7659F7-8BDD-A15C-7FAC-285BDE66655A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AB7659F7-8BDD-A15C-7FAC-285BDE66655A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AB7659F7-8BDD-A15C-7FAC-285BDE66655A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A572FCB0-4E2D-033E-4D13-7A23DBE033E0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A572FCB0-4E2D-033E-4D13-7A23DBE033E0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A572FCB0-4E2D-033E-4D13-7A23DBE033E0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A572FCB0-4E2D-033E-4D13-7A23DBE033E0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A2A9948D-350D-4E17-1336-4CF11F24D1A3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A2A9948D-350D-4E17-1336-4CF11F24D1A3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A2A9948D-350D-4E17-1336-4CF11F24D1A3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A2A9948D-350D-4E17-1336-4CF11F24D1A3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

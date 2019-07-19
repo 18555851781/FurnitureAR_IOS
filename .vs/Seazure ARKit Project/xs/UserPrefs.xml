@@ -1,0 +1,15 @@
+﻿<Properties StartupConfiguration="{A572FCB0-4E2D-033E-4D13-7A23DBE033E0}|">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/Model/Model_Data.cs">
+    <Files>
+      <File FileName="Assets/Scripts/Tool/GameTool.cs" Line="81" Column="41" />
+      <File FileName="Assets/Scripts/Model/Model_Data.cs" Line="36" Column="7" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.Seazure_220ARKit_220Project PreferredExecutionTarget="3f9221ac-6fa9-45dc-833f-aa8cb226d099" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>

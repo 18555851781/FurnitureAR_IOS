@@ -1,0 +1,51 @@
+ManifestFileVersion: 0
+CRC: 2611379653
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 7c5851121f0149eb3b1404592659befd
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 95226c5ca8fda3e3807b20aa2430c4ed
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 23
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 33
+  Script: {instanceID: 0}
+- Class: 43
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+- Class: 65
+  Script: {instanceID: 0}
+- Class: 114
+  Script: {fileID: 11500000, guid: 6941ec02ead994c9b848d640887441f1, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: ad9784c639d5241559b3c5951e3e9a24, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: c74d32ca0536c4960addd5f8ec306cba, type: 3}
+- Class: 115
+  Script: {instanceID: 0}
+- Class: 212
+  Script: {instanceID: 0}
+- Class: 213
+  Script: {instanceID: 0}
+Assets:
+- Assets/Model/Sofa/Armchair_1.FBX
+- Assets/Model/Sofa/Armchair_1_material.mat
+- Assets/Model/Sofa/Armchair_diffuse.tga
+- Assets/Model/Sofa/Armchair_specular.tga
+- Assets/Model/Sofa/Leather_armchair_ao.tga
+- Assets/Model/Sofa/Armchair_normal.tga
+- Assets/Prefabs/Sofa.prefab
+Dependencies:
+- /Users/wuweitong/Unity/Project/Seazure ARKit Project/AssetBundles/iOS/chair

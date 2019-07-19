@@ -1,0 +1,51 @@
+ManifestFileVersion: 0
+CRC: 2000431077
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: c4f75635b2aeadfcb5cfdbfa6ee27650
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 95226c5ca8fda3e3807b20aa2430c4ed
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 23
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 33
+  Script: {instanceID: 0}
+- Class: 43
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+- Class: 65
+  Script: {instanceID: 0}
+- Class: 114
+  Script: {fileID: 11500000, guid: 6941ec02ead994c9b848d640887441f1, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: ad9784c639d5241559b3c5951e3e9a24, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: c74d32ca0536c4960addd5f8ec306cba, type: 3}
+- Class: 115
+  Script: {instanceID: 0}
+- Class: 212
+  Script: {instanceID: 0}
+- Class: 213
+  Script: {instanceID: 0}
+Assets:
+- Assets/Prefabs/Table.prefab
+- Assets/Model/Table/Classic_table_diffuse.tga
+- Assets/Model/Table/Classic_table_ao.tga
+- Assets/Model/Table/Classic_table_normal.tga
+- Assets/Model/Table/Classic_table.FBX
+- Assets/Model/Table/Classic_table_specular.tga
+- Assets/Model/Table/Classic_table_material.mat
+Dependencies:
+- /Users/wuweitong/Unity/Project/Seazure ARKit Project/AssetBundles/iOS/chair
