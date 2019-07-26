@@ -16,9 +16,9 @@ namespace Control
             Instance = this;
         }
 
-        //  Xcode调用的方法
-        [DllImport("__Internal")]
-        private static extern void AddListToShoppingCart(string Message);
+        ////  Xcode调用的方法
+        //[DllImport("__Internal")]
+        //private static extern void AddListToShoppingCart(string Message);
 
         //  数据传递
         public void Control_AddListToShoppingCart()
@@ -39,7 +39,7 @@ namespace Control
             View_FindUI.Instance.Goods_AllMoney.text = "0";
 
             Debug.Log(Json);
-            AddListToShoppingCart(Json);
+            //AddListToShoppingCart(Json);
 
         }
 

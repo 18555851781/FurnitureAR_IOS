@@ -56,10 +56,13 @@ namespace View
         {
             if(Goods_Name.Contains(EventSystem.current.currentSelectedGameObject.name))
             {
+      
                 return false;
-            }else
+            }
+            else
             {
                 Goods_Name.Add(EventSystem.current.currentSelectedGameObject.name);
+
                 return true;
             }
         }

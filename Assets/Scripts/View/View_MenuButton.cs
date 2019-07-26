@@ -15,7 +15,7 @@ namespace View
         private  Button ShopButton;           //  商品按钮
         private  Button DeleteButton;         //  删除按钮
         private  Button OrderButton;          //  订单按钮
-        private Button ExitButton;
+        //private Button ExitButton;
 
         //  按钮绑定加载事件
 
@@ -26,7 +26,7 @@ namespace View
             ShopButton = View_FindUI.Instance.ShopButton;
             DeleteButton = View_FindUI.Instance.DeleteButton;
             OrderButton = View_FindUI.Instance.OrderButton;       //  获取订单按钮
-            ExitButton = View_FindUI.Instance.ExitButton;
+            //ExitButton = View_FindUI.Instance.ExitButton;
  
             //  绑定商品菜单和订单菜单的显示和消失事件
             ShopButton.onClick.AddListener(delegate ()
@@ -54,10 +54,10 @@ namespace View
                 Control_DeleteObj.Instance.DeleteObj();
             });
 
-            ExitButton.onClick.AddListener(delegate ()
-            {
-                Control_Exit.Instance.Exit();
-            });
+            //ExitButton.onClick.AddListener(delegate ()
+            //{
+            //    Control_Exit.Instance.Exit();
+            //});
 
         }
     }

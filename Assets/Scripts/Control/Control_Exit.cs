@@ -14,8 +14,8 @@ namespace Control
             Instance = this;
         }
 
-        [DllImport("__Internal")]
-        private static extern void QuitUnity();
+        //[DllImport("__Internal")]
+        //private static extern void QuitUnity();
 
         public void Exit()
         {
@@ -24,7 +24,7 @@ namespace Control
             GameTool.ClearList(Model_Data.Instance.List_OrderObj);
             Model_Data.Instance.List_JsonMap.Clear();
             View_FindUI.Instance.Goods_AllMoney.text = "0";
-            QuitUnity();
+            //QuitUnity();
         }
     }
 }

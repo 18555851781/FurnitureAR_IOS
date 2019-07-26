@@ -47,21 +47,6 @@ namespace View
             OrderButton = Menu_Plane.transform.GetChild(2).GetComponent<Button>();
             ExitButton = Menu_Plane.transform.GetChild(3).GetComponent<Button>();
 
-
-            ////  判断IOS设备型号  初始化各版本UI数据
-
-            //var IOS = Device.generation;
-            //if(IOS == DeviceGeneration.iPhoneX)
-            //{
-            //    GameTool.GoodsPlane_Display = new Vector2(-400, 0);
-            //    GameTool.GoodsPlane_Undisplay = new Vector2(200, 0);
-            //}
-            //else if(IOS == DeviceGeneration.iPhone6SPlus || IOS == DeviceGeneration.iPhone6S || IOS==DeviceGeneration.iPhone7||IOS == DeviceGeneration.iPhone7Plus ||IOS == DeviceGeneration.iPhone8 || IOS == DeviceGeneration.iPhone8Plus)
-            //{
-            //    GameTool.GoodsPlane_Display = new Vector2(-640, 0);
-            //    GameTool.GoodsPlane_Undisplay = new Vector2(0, 0);
-
-            //}
         }
     }
 }

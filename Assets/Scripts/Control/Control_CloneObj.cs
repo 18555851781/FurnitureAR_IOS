@@ -7,7 +7,6 @@ using Model;
 
 namespace Control
 {
-    
 
     public class Control_CloneObj : MonoBehaviour
     {
@@ -24,15 +23,16 @@ namespace Control
 
         public void CloneObj()
         {
+            LoadObj = (GameObject)Resources.Load(EventSystem.current.currentSelectedGameObject.name);
 
-            LoadObj = Model_Data.Instance.List_LoadObj.Find(delegate (GameObject Obj)
-            {
-                return Obj.name == EventSystem.current.currentSelectedGameObject.name;
-            });
+            //LoadObj = Model_Data.Instance.List_LoadObj.Find(delegate (GameObject Obj)
+            //{
+            //    return Obj.name == EventSystem.current.currentSelectedGameObject.name;
+            //});
 
             if(LoadObj!=null)
             {
-                GameObject InsObj = Instantiate(LoadObj, Vector3.zero, Quaternion.identity);
+                GameObject InsObj = Instantiate(LoadObj, new Vector3(0,10,0), Quaternion.identity);
 
                 //  将Clone出来的物体放入到数组中
                 Model_Data.Instance.Model_Clone.Add(InsObj);

@@ -22,10 +22,10 @@ namespace View
             Order_Plane.SetActive(false);
 
             //  结算按钮注册方法
-            Button_Balance.onClick.AddListener(delegate 
-            {
-                Control_SendMegToIOS.Instance.Control_AddListToShoppingCart();
-            });
+            //Button_Balance.onClick.AddListener(delegate 
+            //{
+            //    Control_SendMegToIOS.Instance.Control_AddListToShoppingCart();
+            //});
         }
 
 

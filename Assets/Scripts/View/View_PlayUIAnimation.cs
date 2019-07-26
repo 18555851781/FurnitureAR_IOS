@@ -78,12 +78,26 @@ namespace View
 
             if (Input.touchCount > 0 && Input.GetTouch(0).phase == TouchPhase.Began)
             {
-                if (!EventSystem.current.IsPointerOverGameObject(Input.GetTouch(0).fingerId))
+                //if (!EventSystem.current.IsPointerOverGameObject())
+                //{
+                //    Debug.Log("没有点击到UI界面！！！！！");
+
+                //    GameTool.PlaneMove(Goods_Plane, GameTool.GoodsPlane_Undisplay);
+
+                //    Order_Plane.SetActive(false);
+                //}
+                //else
+                //{
+                //    Debug.Log("点击到了UI界面！！！！");
+                //}
+
+                if(Input.GetTouch(0).position.x<1500 && Input.GetTouch(0).position.x>300)
                 {
                     GameTool.PlaneMove(Goods_Plane, GameTool.GoodsPlane_Undisplay);
 
                     Order_Plane.SetActive(false);
                 }
+
             }
 
         }

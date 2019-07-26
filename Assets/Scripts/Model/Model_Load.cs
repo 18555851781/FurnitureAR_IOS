@@ -29,7 +29,10 @@ namespace Model
 
             string Load_Path = Path + ButtonName.ToLower();
 
+            Debug.Log(Load_Path);
+
             StartCoroutine(LoadAsset(ButtonName,Load_Path));
+
         }
 
         //  用于下载的协程
